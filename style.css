@@ -1,0 +1,99 @@
+body {
+    border: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#035755;
+
+}
+
+.covidlogo{
+    display: flex;
+    align-items: center;
+}
+
+.covidlogo img{
+    margin: 5px 10px;
+}
+
+.navlinks{
+    margin: 5px 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin: 0 15px;
+}
+
+
+.covidalert{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.covidpicture{
+    flex: 0.6 1;
+    max-width: 486px;
+    max-height: 416px;
+    border: 1px solid aqua;
+    display: flex;
+    align-items: center;
+}
+.alerttext{
+    /* max-width: 456px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.4 1;
+    border: 1px solid slategray;
+    text-align: center;
+
+}
+.covidpicture img{
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (max-width:700px){
+    .covidalert{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .alerttext{
+        padding: 0 20px;
+    }
+
+    .covidpicture{
+        margin: 0 auto;
+    }
+
+    .overview{
+        display: flex;
+    }
+    .viewpic{
+        order: 2;
+    }
+
+    .navlinks {
+        display: none;
+    }
+}
