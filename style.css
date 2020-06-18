@@ -10,7 +10,6 @@ body {
 }
 
 nav{
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +50,6 @@ nav li{
     flex: 0.6 1;
     max-width: 486px;
     max-height: 416px;
-    border: 1px solid aqua;
     display: flex;
     align-items: center;
 }
@@ -61,7 +59,6 @@ nav li{
     flex-direction: column;
     justify-content: center;
     flex: 0.4 1;
-    border: 1px solid slategray;
     text-align: center;
 
 }
@@ -83,7 +80,7 @@ nav li{
     }
 
     .covidpicture{
-        margin: 0 auto;
+        margin: 20px auto;
     }
 
     .overview{
