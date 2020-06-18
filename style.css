@@ -68,6 +68,9 @@ nav li{
 }
 
 @media all and (max-width:700px){
+    .container{
+        margin: 0 15px;
+    }
     .covidalert{
         display: flex;
         flex-direction: column;
